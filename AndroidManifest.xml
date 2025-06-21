@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.starytimer.app">
+    <application android:icon="@mipmap/ic_launcher" android:label="星空计时器">
+        <activity android:configChanges="orientation|keyboardHidden|screenSize" android:exported="true" android:name=".MainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="android.max_aspect" android:value="2.4"/>
+        </activity>
+    </application>
+</manifest>
